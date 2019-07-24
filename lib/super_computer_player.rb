@@ -25,6 +25,7 @@ class SuperComputerPlayer < ComputerPlayer
 
     return a_winning_move.prev_move_pos if a_winning_move
 
+    raise "Ruh roh, Raggy! It looks like there are no moves left you can make to win!"
   end
 end
 
